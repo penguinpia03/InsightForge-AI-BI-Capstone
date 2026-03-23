@@ -25,7 +25,16 @@ This project demonstrates skills in data analysis, visualization, AI-powered ret
 - **Model Evaluation:** QAEvalChain evaluates AI answers against ground-truth QA pairs.  
 - **Memory & Stateful Conversations:** ConversationBufferMemory & LangGraph allow multi-turn context-aware interactions.  
 ---
+## Screenshots
 
+### 📊 Sales Dashboard
+![Sales Dashboard](images/sales_dashboard.png)
+
+### 📁 Data Overview
+![Data Overview](images/data_overview.png)
+
+### 🤖 AI Insights
+![AI Insights](images/ai_insights.png)
 ## Dataset
 
 - **sales_data.csv** – 2,500+ rows  

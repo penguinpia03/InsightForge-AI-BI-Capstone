@@ -57,3 +57,34 @@ This project demonstrates skills in data analysis, visualization, AI-powered ret
 ```bash
 git clone https://github.com/yourusername/InsightForge-AI-BI-Capstone.git
 cd InsightForge-AI-BI-Capstone
+Install dependencies:
+pip install -r requirements.txt
+Set your API key in .env:
+OPENAI_API_KEY=your_key_here
+Run the Streamlit app:
+streamlit run app.py
+Open your browser at http://localhost:8501 to explore the dashboard and AI assistant.
+Project Structure
+InsightForge-AI-BI-Capstone/
+├── data/
+│   ├── sales_data.csv
+│   └── records.xlsx
+├── reports/             # PDF reports (optional)
+├── vectorstore/         # FAISS vector index files
+├── src/
+│   ├── data_loader.py
+│   ├── knowledge_base.py
+│   ├── rag_chain.py
+│   ├── visualizations.py
+│   └── evaluator.py
+├── app.py               # Streamlit entry point
+├── requirements.txt
+└── .env                 # API keys
+Author
+
+Pia Gupta | contactpia@gmail.com
+ | LinkedIn
+ | GitHub
+
+
+

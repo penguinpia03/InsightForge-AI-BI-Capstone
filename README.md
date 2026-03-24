@@ -28,13 +28,14 @@ This project demonstrates skills in data analysis, visualization, AI-powered ret
 ## Screenshots
 
 ### 📊 Sales Dashboard
-![Sales Dashboard](images/sales_dashboard.png)
+![Sales Dashboard](sales_dashboard.png)
 
 ### 📁 Data Overview
-![Data Overview](images/data_overview.png)
+![Data Overview](data_overview.png)
 
 ### 🤖 AI Insights
-![AI Insights](images/ai_insights.png)
+![AI Insights](ai_insights.png)
+
 ## Dataset
 
 - **sales_data.csv** – 2,500+ rows  

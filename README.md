@@ -111,11 +111,11 @@ InsightForge-AI-BI-Capstone/
 
 ###  AI Insights
 
-![AI Insights](AI insights.png)
+![AI Insights](ai_insights.png)
 
 ###  Data Overview
 
-![Data Overview](data overview.png)
+![Data Overview](data_overview.png)
 
 ###  PDF-Based Insights
 

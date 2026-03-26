@@ -2,7 +2,7 @@
 #  InsightForge: AI-Powered Business Intelligence Capstone
 
 ##  Project Overview
-
+This project was developed as part of an AI/BI Capstone to demonstrate real-world application of LLM-powered analytics.
 InsightForge is an AI-powered Business Intelligence system that enables users to interact with business data using natural language.
 
 The project combines structured data analysis with unstructured document understanding using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG).

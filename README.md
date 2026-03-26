@@ -108,15 +108,15 @@ InsightForge-AI-BI-Capstone/
 
 ### Dashboard Insights
 
-![Sales Dashboard](images/sales_dashboard.png)
+![Sales Dashboard](sales_dashboard.png)
 
 ###  AI Q&A Interface
 
-![AI Q\&A](images/ai_qa.png)
+![AI Q\&A](ai_qa.png)
 
 ###  PDF-Based Insights
 
-![PDF Insights](images/pdf_qa.png)
+![PDF Insights](pdf_qa.png)
 
 ---
 

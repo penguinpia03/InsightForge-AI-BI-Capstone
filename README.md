@@ -103,20 +103,24 @@ InsightForge-AI-BI-Capstone/
    * Ask insights from the PDF report
 
 ---
+## 📸 Project Screenshots
 
-##  Project Screenshots
-
-### Dashboard Insights
+###  Dashboard Insights
 
 ![Sales Dashboard](sales_dashboard.png)
 
-###  AI Q&A Interface
+###  AI Insights
 
-![AI Q\&A](ai_qa.png)
+![AI Insights](AI insights.png)
+
+###  Data Overview
+
+![Data Overview](data overview.png)
 
 ###  PDF-Based Insights
 
 ![PDF Insights](pdf_qa.png)
+
 
 ---
 

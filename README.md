@@ -1,100 +1,167 @@
-# InsightForge-AI-BI-Capstone
 
-**AI-Powered Business Intelligence Assistant**
+#  InsightForge: AI-Powered Business Intelligence Capstone
 
----
+##  Project Overview
 
-## Project Description
+InsightForge is an AI-powered Business Intelligence system that enables users to interact with business data using natural language.
 
-InsightForge is an end-to-end AI-powered Business Intelligence assistant that transforms raw sales and business data into actionable insights through a conversational AI interface. Built using Python, LangChain, RAG, FAISS, LLMs, Streamlit, and Pandas, it allows users to explore sales performance, customer behavior, and trends interactively.
-
-This project demonstrates skills in data analysis, visualization, AI-powered retrieval, prompt engineering, and building portfolio-ready applications.
+The project combines structured data analysis with unstructured document understanding using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG).
 
 ---
 
-## Features
+##  Objectives
 
-- **AI Chat Assistant:** Ask questions about sales data and get accurate, data-grounded responses.  
-- **Interactive Dashboard:** Explore metrics via multiple visualizations:  
-  - Monthly Sales Trend  
-  - Product Performance Comparison  
-  - Regional Sales Analysis  
-  - Customer Demographics & Satisfaction  
-- **RAG-Powered Intelligence:** FAISS vector store enables retrieval-augmented generation for smarter AI answers.  
-- **Live Data Insights:** Pandas-based retriever injects live statistics for precise context in AI responses.  
-- **Model Evaluation:** QAEvalChain evaluates AI answers against ground-truth QA pairs.  
-- **Memory & Stateful Conversations:** ConversationBufferMemory & LangGraph allow multi-turn context-aware interactions.  
----
-## Screenshots
-
-### 📊 Sales Dashboard
-![Sales Dashboard](sales_dashboard.png)
-
-### 📁 Data Overview
-![Data Overview](data_overview.png)
-
-### 🤖 AI Insights
-![AI Insights](ai_insights.png)
-
-## Dataset
-
-- **sales_data.csv** – 2,500+ rows  
-  Fields: Date, Product (Widget A-D), Region (North/South/East/West), Sales, Customer_Age, Customer_Gender, Customer_Satisfaction (0-5)  
-- **records.xlsx** – supplemental business records  
-- **PDF reports** – optional for knowledge base ingestion  
+* Enable natural language querying of business data
+* Generate actionable insights using AI
+* Combine structured (CSV) and unstructured (PDF) data
+* Demonstrate real-world AI + BI integration
 
 ---
 
-## Tech Stack
+##  Key Features
 
-| Layer | Technology | Purpose |
-|-------|------------|---------|
-| Data Processing | Pandas, OpenPyXL | Load, clean, summarize data |
-| Embeddings & Retrieval | FAISS + sentence-transformers | RAG vector store |
-| LLM Orchestration | LangChain, LangGraph | Prompt chains, memory management |
-| LLM Backend | OpenAI GPT / Groq API | Fast inference |
-| PDF Ingestion | PyPDF, pdf2image | Load reports into knowledge base |
-| Evaluation | QAEvalChain | Automated model evaluation |
-| UI | Streamlit | Interactive dashboard |
-| Visualization | Matplotlib, Seaborn | Charts & plots |
+###  Data Analysis
+
+* Sales trend analysis
+* Regional performance insights
+* Product-level evaluation
+
+###  AI-Powered Q&A
+
+* Ask business questions in plain English
+* Context-aware responses using memory
+* Multi-turn conversation capability
+
+###  PDF Intelligence
+
+* Extract insights from business reports
+* Answer recommendation-based queries
+* Separate retriever for improved accuracy
+
+###  RAG Architecture
+
+* Embeddings + Vector Database (FAISS)
+* Intelligent document retrieval
+* Context-grounded AI responses
 
 ---
 
-## How to Run
+##  Tech Stack
+
+* Python
+* Pandas
+* Matplotlib / Seaborn
+* LangChain
+* OpenAI / LLM APIs
+* FAISS (Vector Store)
+
+---
+
+##  Project Structure
+
+```
+InsightForge-AI-BI-Capstone/
+│
+├── InsightForge_Notebook.ipynb
+├── sales_data.csv
+├── business_report.pdf
+├── images/
+│   ├── sales_dashboard.png
+│   ├── ai_qa.png
+│   └── pdf_qa.png
+└── README.md
+```
+
+---
+
+##  How to Run the Project
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/yourusername/InsightForge-AI-BI-Capstone.git
-cd InsightForge-AI-BI-Capstone
-Install dependencies:
-pip install -r requirements.txt
-Set your API key in .env:
-OPENAI_API_KEY=your_key_here
-Run the Streamlit app:
-streamlit run app.py
-Open your browser at http://localhost:8501 to explore the dashboard and AI assistant.
-Project Structure
-InsightForge-AI-BI-Capstone/
-├── data/
-│   ├── sales_data.csv
-│   └── records.xlsx
-├── reports/             # PDF reports (optional)
-├── vectorstore/         # FAISS vector index files
-├── src/
-│   ├── data_loader.py
-│   ├── knowledge_base.py
-│   ├── rag_chain.py
-│   ├── visualizations.py
-│   └── evaluator.py
-├── app.py               # Streamlit entry point
-├── requirements.txt
-└── .env                 # API keys
-Author
+   ```bash
+   git clone https://github.com/penguinpia03/InsightForge-AI-BI-Capstone.git
+   cd InsightForge-AI-BI-Capstone
+   ```
 
-Pia Gupta | contactpia@gmail.com
- | LinkedIn
- | GitHub
+2. Install dependencies:
+
+   ```bash
+   pip install pandas matplotlib seaborn langchain openai faiss-cpu
+   ```
+
+3. Open the Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+4. Run all cells step by step
+
+5. Interact with the AI:
+
+   * Ask questions about sales data
+   * Ask insights from the PDF report
+
+---
+
+##  Project Screenshots
+
+### Dashboard Insights
+
+![Sales Dashboard](images/sales_dashboard.png)
+
+###  AI Q&A Interface
+
+![AI Q\&A](images/ai_qa.png)
+
+###  PDF-Based Insights
+
+![PDF Insights](images/pdf_qa.png)
+
+---
+
+##  Example Queries
+
+* Which product has the highest sales?
+* Why is a product performing well?
+* What recommendations are mentioned in the business report?
+
+---
+
+##  Architecture Overview
+
+The system uses Retrieval-Augmented Generation (RAG):
+
+* CSV data → Embedded and stored in vector database
+* PDF data → Processed separately for accurate retrieval
+* User query → Relevant context retrieved → LLM generates answer
+
+To improve accuracy, separate vector stores were created for structured and unstructured data sources.
+
+---
+
+##  Results
+
+* Accurate business insights from structured data
+* Context-aware AI responses using memory
+* Successful extraction of recommendations from PDF reports
+
+---
+
+##  Future Improvements
+
+* Real-time data integration
+* Dashboard tools (Streamlit / Power BI)
+* Deployment as a web application
+
+---
+
+##  Author
+
+Pia Gupta
+
+---
+
 
 
 

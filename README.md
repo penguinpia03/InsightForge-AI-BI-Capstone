@@ -55,8 +55,7 @@ This solution enables organizations to make faster, smarter, and data-driven dec
 ###  Additional Capabilities
 -  Conversational memory for multi-turn queries  
 -  Model evaluation using QAEvalChain  
--  Streamlit web application interface  
-
+-  Streamlit web application interface for real-time user interaction
 ---
 
 ##  RAG Architecture Overview
@@ -115,9 +114,12 @@ jupyter notebook
 streamlit run app.py
 ## Note
 
-The notebook version of the project runs fully in the course lab environment.
+## ⚠️ Note
 
-The Streamlit UI (`app.py`) is included as part of the project implementation. In some lab environments, Streamlit may not inherit the same API-key configuration as the notebook runtime, which can affect live execution even though the notebook-based AI pipeline works correctly.
+The project runs fully in the course lab environment, including the Streamlit interface.
+
+A valid OpenAI API configuration may be required when running locally.
+
 
 ## Project Screenshots
 
@@ -155,9 +157,11 @@ Advanced dashboard visualizations
 Deployment as a production-ready web application
 
 ## Deployment Note
-The project includes a Streamlit interface in `app.py` for interactive exploration.
-In the course lab environment, notebook execution and Streamlit execution may use different runtime configurations for API access. The notebook version runs fully and demonstrates the complete RAG workflow, while the Streamlit file is included as the UI implementation component of the project.
- 
+
+The project includes a Streamlit interface (`app.py`) that enables interactive querying of both structured and unstructured data.
+
+The application runs successfully in the course lab environment. When running locally, a valid OpenAI API configuration may be required.
+
  ## Author
  Pia Gupta
  

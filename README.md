@@ -114,13 +114,10 @@ jupyter notebook
 streamlit run app.py
 
 ## Project Screenshots
- Data Dashboard
-
- AI Insights
-
- PDF Intelligence
-
- Streamlit App
+![Dashboard](data_overview.png)
+![AI Insights](ai_insights.png)
+![PDF Q&A](pdf_qa.png)
+![Streamlit App](streamlit_app.png)
 
 ## Example Queries
 Which product has the highest sales?

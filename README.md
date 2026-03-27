@@ -74,7 +74,7 @@ To improve accuracy, separate vector stores are used for:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python  
 - Pandas  
@@ -85,7 +85,8 @@ To improve accuracy, separate vector stores are used for:
 - Streamlit
 
  ---
-## Project Structure
+##  Project Structure
+
 InsightForge/
 │
 ├── InsightForge_Notebook.ipynb
@@ -100,24 +101,19 @@ InsightForge/
 
 ##  How to Run the Project
 
-1. Clone the repository:
+### Clone the repository
 
-```bash
 git clone https://github.com/penguinpia03/InsightForge-AI-BI-Capstone.git
 cd InsightForge-AI-BI-Capstone
----
-Install dependencies:
+### Install dependencies
 pip install pandas matplotlib langchain openai faiss-cpu streamlit
-
-Run the notebook:
+### Run the notebook
 jupyter notebook
-
-Run all cells step-by-step
-
-Run Streamlit App
+### Run all cells step-by-step.
+### Run Streamlit App
 streamlit run app.py
 
-Project Screenshots
+## Project Screenshots
  Data Dashboard
 
  AI Insights
@@ -125,32 +121,29 @@ Project Screenshots
  PDF Intelligence
 
  Streamlit App
-----
- Example Queries
+
+## Example Queries
 Which product has the highest sales?
 Why is a product performing well?
 What recommendations are mentioned in the business report?
- Evaluation
+ 
+## Evaluation
 
 The system is evaluated using LangChain’s QAEvalChain to compare generated answers with expected ground-truth responses.
 
 This helps measure the accuracy and reliability of the AI system.
----
- Results
+
+## Results
 Accurate business insights from structured data
 Context-aware AI responses using memory
 Successful extraction of recommendations from PDF reports
- Future Improvements
+## Future Improvements
 Real-time data integration
 Advanced dashboard visualizations
 Deployment as a production-ready web application
----
-## Author
-Pia Gupta
 
-Email: contactpia@gmail.com | 
----
-
-
+ ## Author
+ Pia Gupta
+ Email: contactpia@gmail.com`
 
 

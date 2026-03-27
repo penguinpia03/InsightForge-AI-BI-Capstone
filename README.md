@@ -82,7 +82,14 @@ To improve accuracy, separate vector stores are used for:
 - OpenAI (LLMs)  
 - FAISS (Vector Store)  
 - Streamlit
+- 
+##  Streamlit Interface
 
+The application includes a Streamlit-based UI that allows users to:
+
+- Query sales data using natural language  
+- Extract insights from business reports  
+- Interact with the system in real time  
  ---
 ##  Project Files
 

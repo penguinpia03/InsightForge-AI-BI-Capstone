@@ -85,17 +85,17 @@ To improve accuracy, separate vector stores are used for:
 - Streamlit
 
  ---
-##  Project Structure
+##  Project Files
 
-InsightForge/
-│
-├── InsightForge_Notebook.ipynb
-├── sales_data.csv
-├── business_report.pdf
-├── app.py
-├── README.md
-└── images/
-
+- InsightForge_Notebook.ipynb
+- sales_data.csv
+- business_report.pdf
+- app.py
+- README.md
+- data_overview.png
+- ai_insights.png
+- pdf_qa.png
+- streamlit_app.png
 
 ---
 
@@ -142,6 +142,7 @@ Deployment as a production-ready web application
 
  ## Author
  Pia Gupta
+ 
  Email: contactpia@gmail.com`
 
 

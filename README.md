@@ -113,6 +113,11 @@ jupyter notebook
 ### Run all cells step-by-step.
 ### Run Streamlit App
 streamlit run app.py
+## Note
+
+The notebook version of the project runs fully in the course lab environment.
+
+The Streamlit UI (`app.py`) is included as part of the project implementation. In some lab environments, Streamlit may not inherit the same API-key configuration as the notebook runtime, which can affect live execution even though the notebook-based AI pipeline works correctly.
 
 ## Project Screenshots
 ![Dashboard](data_overview.png)
@@ -140,6 +145,10 @@ Real-time data integration
 Advanced dashboard visualizations
 Deployment as a production-ready web application
 
+## Deployment Note
+The project includes a Streamlit interface in `app.py` for interactive exploration.
+In the course lab environment, notebook execution and Streamlit execution may use different runtime configurations for API access. The notebook version runs fully and demonstrates the complete RAG workflow, while the Streamlit file is included as the UI implementation component of the project.
+ 
  ## Author
  Pia Gupta
  

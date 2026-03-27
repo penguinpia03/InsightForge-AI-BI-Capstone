@@ -1,78 +1,101 @@
-
 #  InsightForge: AI-Powered Business Intelligence Capstone
 
->  AI-powered system combining structured and unstructured data using RAG architecture
+> AI-powered Business Intelligence system using Retrieval-Augmented Generation (RAG) to analyze structured and unstructured data
+
+---
 
 ##  Project Overview
-This project was developed as part of an AI/BI Capstone to demonstrate real-world application of LLM-powered analytics.
+
+This project was developed as part of an AI/BI Capstone to demonstrate the real-world application of LLM-powered analytics.
+
 InsightForge is an AI-powered Business Intelligence system that enables users to interact with business data using natural language.
 
-The project combines structured data analysis with unstructured document understanding using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG).
+The system combines:
+
+-  Structured data (CSV sales dataset)
+-  Unstructured data (business report PDF)
+-  Large Language Models (LLMs)
+-  Retrieval-Augmented Generation (RAG)
+
+This solution enables organizations to make faster, smarter, and data-driven decisions.
 
 ---
 
 ##  Objectives
 
-* Enable natural language querying of business data
-* Generate actionable insights using AI
-* Combine structured (CSV) and unstructured (PDF) data
-* Demonstrate real-world AI + BI integration
+- Enable natural language querying of business data  
+- Generate actionable insights using AI  
+- Combine structured (CSV) and unstructured (PDF) data  
+- Demonstrate real-world AI + BI integration  
 
 ---
 
-##  Key Features
+##  Features
 
 ###  Data Analysis
+- Sales trend analysis  
+- Regional performance insights  
+- Product-level evaluation  
 
-* Sales trend analysis
-* Regional performance insights
-* Product-level evaluation
-
-###  AI-Powered Q&A
-
-* Ask business questions in plain English
-* Context-aware responses using memory
-* Multi-turn conversation capability
+###  AI-Powered Q&A (RAG)
+- Ask business questions in plain English  
+- Context-aware responses using memory  
+- Multi-turn conversation capability  
 
 ###  PDF Intelligence
-
-* Extract insights from business reports
-* Answer recommendation-based queries
-* Separate retriever for improved accuracy
+- Extract insights from business reports  
+- Answer recommendation-based queries  
+- Separate retriever for improved accuracy  
 
 ###  RAG Architecture
+- Embeddings + Vector Database (FAISS)  
+- Intelligent document retrieval  
+- Context-grounded AI responses  
 
-* Embeddings + Vector Database (FAISS)
-* Intelligent document retrieval
-* Context-grounded AI responses
-
----
-
-##  Tech Stack
-
-* Python
-* Pandas
-* Matplotlib / Seaborn
-* LangChain
-* OpenAI / LLM APIs
-* FAISS (Vector Store)
+###  Additional Capabilities
+-  Conversational memory for multi-turn queries  
+-  Model evaluation using QAEvalChain  
+-  Streamlit web application interface  
 
 ---
 
-##  Project Structure
+##  RAG Architecture Overview
 
-```
-InsightForge-AI-BI-Capstone/
+This project uses a Retrieval-Augmented Generation (RAG) pipeline:
+
+- Data is converted into embeddings using OpenAI embeddings  
+- Stored in a FAISS vector database  
+- Relevant context is retrieved based on user queries  
+- The LLM generates answers grounded in retrieved data  
+
+To improve accuracy, separate vector stores are used for:
+- Structured data (CSV)
+- Unstructured data (PDF)
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- Pandas  
+- Matplotlib  
+- LangChain  
+- OpenAI (LLMs)  
+- FAISS (Vector Store)  
+- Streamlit
+
+ ---
+## Project Structure
+
+InsightForge/
 │
 ├── InsightForge_Notebook.ipynb
 ├── sales_data.csv
 ├── business_report.pdf
-├── images/
-│   ├── sales_dashboard.png
-│   ├── ai_qa.png
-│   └── pdf_qa.png
-└── README.md
-```
+├── app.py
+├── README.md
+└── images/
+
 
 ---
 
@@ -80,90 +103,46 @@ InsightForge-AI-BI-Capstone/
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/penguinpia03/InsightForge-AI-BI-Capstone.git
-   cd InsightForge-AI-BI-Capstone
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   pip install pandas matplotlib seaborn langchain openai faiss-cpu
-   ```
-
-3. Open the Jupyter Notebook:
-
-   ```bash
-   jupyter notebook
-   ```
-
-4. Run all cells step by step
-
-5. Interact with the AI:
-
-   * Ask questions about sales data
-   * Ask insights from the PDF report
-
+```bash
+git clone https://github.com/penguinpia03/InsightForge-AI-BI-Capstone.git
+cd InsightForge-AI-BI-Capstone
 ---
-## 📸 Project Screenshots
+Install dependencies:
+pip install pandas matplotlib langchain openai faiss-cpu streamlit
+Run the notebook:
+jupyter notebook
+Run all cells step-by-step
+ Run Streamlit App
+streamlit run app.py
+ Project Screenshots
+ Data Dashboard
 
-###  Dashboard Insights
+ AI Insights
 
-![Sales Dashboard](sales_dashboard.png)
+ PDF Intelligence
 
-###  AI Insights
+ Streamlit App
 
-![AI Insights](ai_insights.png)
+ Example Queries
+Which product has the highest sales?
+Why is a product performing well?
+What recommendations are mentioned in the business report?
+ Evaluation
 
-###  Data Overview
+The system is evaluated using LangChain’s QAEvalChain to compare generated answers with expected ground-truth responses.
 
-![Data Overview](data_overview.png)
+This helps measure the accuracy and reliability of the AI system.
 
-###  PDF-Based Insights
+ Results
+Accurate business insights from structured data
+Context-aware AI responses using memory
+Successful extraction of recommendations from PDF reports
+ Future Improvements
+Real-time data integration
+Advanced dashboard visualizations
+Deployment as a production-ready web application
 
-![PDF Insights](pdf_qa.png)
-
-
----
-
-##  Example Queries
-
-* Which product has the highest sales?
-* Why is a product performing well?
-* What recommendations are mentioned in the business report?
-
----
-
-##  Architecture Overview
-
-The system uses Retrieval-Augmented Generation (RAG):
-
-* CSV data → Embedded and stored in vector database
-* PDF data → Processed separately for accurate retrieval
-* User query → Relevant context retrieved → LLM generates answer
-
-To improve accuracy, separate vector stores were created for structured and unstructured data sources.
-
----
-
-##  Results
-
-* Accurate business insights from structured data
-* Context-aware AI responses using memory
-* Successful extraction of recommendations from PDF reports
-
----
-
-##  Future Improvements
-
-* Real-time data integration
-* Dashboard tools (Streamlit / Power BI)
-* Deployment as a web application
-
----
-
-##  Author
-
+## Author
 Pia Gupta
 
 Email: contactpia@gmail.com | 

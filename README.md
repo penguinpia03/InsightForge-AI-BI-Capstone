@@ -121,16 +121,16 @@ The Streamlit UI (`app.py`) is included as part of the project implementation. I
 
 ## Project Screenshots
 
-### Data Dashboard
+### 📊 Data Dashboard
 ![Dashboard](data_overview.png)
 
-### AI Insights
+### 📊 AI Insights
 ![AI Insights](ai_insights.png)
 
-### PDF Intelligence
+### 📄 PDF Intelligence
 ![PDF Q&A](pdf_qa.png)
 
-### Streamlit App
+### 🌐 Streamlit App
 ![Streamlit App](streamlit_app.png)
 
 

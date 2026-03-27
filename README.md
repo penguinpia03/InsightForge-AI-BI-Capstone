@@ -104,7 +104,8 @@ InsightForge/
 ### Clone the repository
 
 git clone https://github.com/penguinpia03/InsightForge-AI-BI-Capstone.git
- cd InsightForge-AI-BI-Capstone
+
+cd InsightForge-AI-BI-Capstone
 ### Install dependencies
 pip install pandas matplotlib langchain openai faiss-cpu streamlit
 ### Run the notebook

@@ -120,12 +120,17 @@ The notebook version of the project runs fully in the course lab environment.
 The Streamlit UI (`app.py`) is included as part of the project implementation. In some lab environments, Streamlit may not inherit the same API-key configuration as the notebook runtime, which can affect live execution even though the notebook-based AI pipeline works correctly.
 
 ## Project Screenshots
+
+### Data Dashboard
 ![Dashboard](data_overview.png)
 
+### AI Insights
 ![AI Insights](ai_insights.png)
 
+### PDF Intelligence
 ![PDF Q&A](pdf_qa.png)
 
+### Streamlit App
 ![Streamlit App](streamlit_app.png)
 
 

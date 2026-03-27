@@ -86,7 +86,6 @@ To improve accuracy, separate vector stores are used for:
 
  ---
 ## Project Structure
-
 InsightForge/
 │
 ├── InsightForge_Notebook.ipynb
@@ -109,12 +108,16 @@ cd InsightForge-AI-BI-Capstone
 ---
 Install dependencies:
 pip install pandas matplotlib langchain openai faiss-cpu streamlit
+
 Run the notebook:
 jupyter notebook
+
 Run all cells step-by-step
- Run Streamlit App
+
+Run Streamlit App
 streamlit run app.py
- Project Screenshots
+
+Project Screenshots
  Data Dashboard
 
  AI Insights
@@ -122,7 +125,7 @@ streamlit run app.py
  PDF Intelligence
 
  Streamlit App
-
+----
  Example Queries
 Which product has the highest sales?
 Why is a product performing well?
@@ -132,7 +135,7 @@ What recommendations are mentioned in the business report?
 The system is evaluated using LangChain’s QAEvalChain to compare generated answers with expected ground-truth responses.
 
 This helps measure the accuracy and reliability of the AI system.
-
+---
  Results
 Accurate business insights from structured data
 Context-aware AI responses using memory
@@ -141,7 +144,7 @@ Successful extraction of recommendations from PDF reports
 Real-time data integration
 Advanced dashboard visualizations
 Deployment as a production-ready web application
-
+---
 ## Author
 Pia Gupta
 
